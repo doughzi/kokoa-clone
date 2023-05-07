@@ -1,3 +1,3 @@
 # Kokoa Clone
 
-Lets go!!!
+Lets go pt.2 !!!
