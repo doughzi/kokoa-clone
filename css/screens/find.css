@@ -35,3 +35,18 @@
     text-align: center;
     font-size: 18px;
 }
+
+.open-chat {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+.open-chat_left {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat_right {
+    color: rgba(0, 0, 0, 0.3);
+}
+
