@@ -4,8 +4,9 @@
         <link rel="stylesheet" href="css/styles.css">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width">
-        <title>Friends - DocaoTalk</title>
+        <title>Find - DocaoTalk</title>
     </head>
+
     <body>
         <div class="status-bar">
             <div class="status-bar_column">
@@ -23,13 +24,10 @@
         </div>
         
         <header class="screen-header">
-            <h1 class="screen-header_title">Friends</h1>
+            <h1 class="screen-header_title">Find</h1>
             <div class="screen-header_icons">
                 <span>
                     <i class="fa-regular fa-magnifying-glass fa-lg"></i>
-                </span>
-                <span>
-                    <i class="fa-solid fa-music fa-lg"></i> 
                 </span>
                 <span>
                     <i class="fa-solid fa-gear fa-lg"></i>
@@ -37,61 +35,42 @@
             </div>
         </header>
 
-        <a id="friends-display-link">
-            <i class="fa-solid fa-circle-info"></i> Friends' Name Display <i class="fa-solid fa-chevron-right fa-xs"></i> 
-        </a>
-
         <main class="main-screen">
-            <div class="user-component">
-                <div class="user-component_column">
-                    <img 
-                    src="https://avatars.githubusercontent.com/u/132826773?s=400&u=86ba90a1e5c0a0c42a33a513c97cb6d5bf48dc22&v=4" 
-                    class="user-component_avatar user-component_avatar--xl"
-                    />
-                    <div class="user-component_text">
-                        <h4 class="user-component_title">Dough</h4>
-                        <!-- <h6 class="user-component_subtitle">nul</h6> -->
-                    </div>
+            <div class="find-icons">
+                <div class="find-icons_icon">
+                    <i class="fa-solid fa-qrcode"></i>
+                    <span>QR Code</span>
                 </div>
-                <div class="user-component_column"></div>
-            </div>
-            <div class="friends-screen_channel">
-                <div class="friends-screen_channel-header">
-                    <span>Channel</span>
-                    <i class="fa-solid fa-chevron-up fa-xs"></i>
+                <div class="find-icons_icon">
+                    <i class="fa-regular fa-address-book"></i>
+                    <span>Add by Contacts</span>
                 </div>
-                <div class="user-component">
-                    <div class="user-component_column">
-                        <img 
-                        src="https://avatars.githubusercontent.com/u/132826773?s=400&u=86ba90a1e5c0a0c42a33a513c97cb6d5bf48dc22&v=4" 
-                        class="user-component_avatar user-component_avatar--sm"
-                        />
-                        <div class="user-component_text">
-                            <h4 class="user-component_title user-component_title--not-bold">Channel</h4>
-                        </div>  
-                    </div>
-                    <div class="user-component_column">
-                        <div>
-                            <span>2</span>
-                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                        </div>
-                    </div>
+                <div class="find-icons_icon">
+                    <i class="fa-solid fa-fingerprint"></i>
+                    <span>Add by ID</span>
+                </div>
+                <div class="find-icons_icon">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>Invite</span>
                 </div>
             </div>
-
+            <div class="recommended-friends">
+                <h6 class="recommended-friends_title">Recommended Friends</h6>
+                <span>You have no recommended friends.</span>
+            </div>
         </main>
 
         <nav class="nav">
             <ul class="nav_list">
                 <li class="nav_btn">
                     <a class="nav_link" href="friends.html">
-                        <i class="fa-solid fa-user fa-2x"></i>
+                        <i class="fa-regular fa-user fa-2x"></i>
                     </a>
                 </li>
                 <li class="nav_btn">
                     <a class="nav_link" href="chats.html">
                         <span class="nav_notification badge">1</span>
-                        <i class="fa-regular fa-comment fa-2x"></i></i>
+                        <i class="fa-regular fa-comment fa-2x"></i>
                     </a>
                 </li>
                 <li class="nav_btn">
