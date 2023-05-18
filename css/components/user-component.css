@@ -26,9 +26,14 @@
     font-size: 17px;
 }
 
+.user-component_subtitle i{
+    color: tomato;
+}
+
 .user-component_avatar--xl {
     width: 80px;
     height: 80px;
+    border-radius: 30px;
 }
 
 .user-component_avatar--sm {
@@ -48,6 +53,9 @@
 }
 
 .user-component_notification {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
     position: absolute;
     left: 15px;
     top: 15px;    
